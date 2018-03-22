@@ -1,19 +1,16 @@
 spring:
-  cloud:
-    config:
-      enabled: true
-eureka:
-  client:
-    enabled: true
-zuul:
-  ignoredServices: "*"
-  prefix: /api
-  routes:
-    simple:
-      path: /simple/**
-#uncomment this line and comment the line below when running the application locally      
+  profiles:
+    active:
+    - default
+#zuul:
+#  ignoredServices: "*"
+#  prefix: /api
+#  routes:
+#    simple:
+#      path: /simple/**
+##uncomment this line and comment the line below when running the application locally      
 #      url: http://localhost:8081 
-      serviceId: simple-service
+##      serviceId: simple-service
 
 #ribbon:
 #  ConnectTimeout: 30000
