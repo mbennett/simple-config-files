@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active:
+    - test
+eureka:
+  client:
+    enabled: false
+
+testMessage: "This is only a test!"
