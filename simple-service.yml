@@ -2,5 +2,4 @@ spring:
   profiles:
     active:
     - default
-
-testMessage: "test message for default profile"
+testMessage: test message for default profile

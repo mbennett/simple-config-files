@@ -1,24 +1,8 @@
 spring:
   cloud:
     config:
-     enabled: true
+      enabled: true
 eureka:
   client:
-    enabled: true     
-
-#ribbon: 
-#  ConnectTimeout: 30000
-#  ReadTimeout: 10000
-#  maxAutoRetries: 1
-#  MaxAutoRetriesNextServer: 2
-#  eureka:
-#    enabled: true
-
-##disable registering with eureka when running locally    
-#eureka:
-#  client:
-#    enabled: true
-#    serviceUrl:
-#      defaultZone: http://localhost:8761/eureka
-
-testMessage: "test message for dev profile"
+    enabled: true
+testMessage: test message for dev profile
