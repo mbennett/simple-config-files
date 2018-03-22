@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active:
+    - default
+
+testMessage: "This is only a test!"
