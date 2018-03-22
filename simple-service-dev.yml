@@ -2,7 +2,10 @@ spring:
   cloud:
     config:
      enabled: true
-     
+eureka:
+  client:
+    enabled: true     
+
 #ribbon: 
 #  ConnectTimeout: 30000
 #  ReadTimeout: 10000
@@ -18,4 +21,4 @@ spring:
 #    serviceUrl:
 #      defaultZone: http://localhost:8761/eureka
 
-testMessage: "This is only a test!"
+testMessage: "test message for dev profile"

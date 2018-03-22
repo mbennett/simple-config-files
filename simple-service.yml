@@ -3,4 +3,4 @@ spring:
     active:
     - default
 
-testMessage: "This is only a test!"
+testMessage: "test message for default profile"
