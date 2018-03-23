@@ -2,6 +2,8 @@ spring:
   cloud:
     config:
       enabled: true
+    services:
+      registrationMethod: route
 eureka:
   client:
     enabled: true
@@ -14,9 +16,9 @@ zuul:
 #uncomment this line and comment the line below when running the application locally      
 #      url: http://localhost:8081 
       serviceId: simple-service
-simple:
-  ribbon:
-    DeploymentContextBasedVipAddresses: simple-service
+#simple:
+#  ribbon:
+#    DeploymentContextBasedVipAddresses: simple-service
 
 #ribbon:
 #  ConnectTimeout: 30000
