@@ -1,10 +1,1 @@
-spring:
-  cloud:
-    config:
-      enabled: true
-    services:
-      registrationMethod: route
-eureka:
-  client:
-    enabled: true
 testMessage: test message for dev profile

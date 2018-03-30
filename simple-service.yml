@@ -1,5 +1,1 @@
-spring:
-  profiles:
-    active:
-    - default
 testMessage: test message for default profile
